@@ -1,0 +1,129 @@
+
+.farmUnit{
+
+
+  background: rgb(248, 246, 246);
+  width: 100px;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  //background-image: url(../textures/wheat/wheat_stage_7.png);
+
+
+}
+
+
+.cellContainer{
+  max-width: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+
+.texture{
+  image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+  image-rendering: -moz-crisp-edges;          /* Firefox                        */
+  image-rendering: -o-crisp-edges;            /* Opera                          */
+  image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+  image-rendering: pixelated; /* Chrome */
+  image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+  -ms-interpolation-mode: nearest-neighbor;
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.wheat0{
+  background-image: url(../textures/wheat/wheat_stage0.png);
+}
+
+.wheat0{
+  background-image: url(../textures/wheat/wheat_stage0.png);
+}
+.wheat1{
+  background-image: url(../textures/wheat/wheat_stage1.png);
+}
+.wheat2{
+  background-image: url(../textures/wheat/wheat_stage2.png);
+}
+.wheat3{
+  background-image: url(../textures/wheat/wheat_stage3.png);
+}
+.wheat4{
+  background-image: url(../textures/wheat/wheat_stage4.png);
+}
+.wheat5{
+  background-image: url(../textures/wheat/wheat_stage5.png);
+}
+.wheat6{
+  background-image: url(../textures/wheat/wheat_stage6.png);
+}
+.wheat7{
+  background-image: url(../textures/wheat/wheat_stage7.png);
+}
+
+.potato0{
+  background-image: url(../textures/potato/potatoes_stage0.png);
+}
+
+.potato1{
+  background-image: url(../textures/potato/potatoes_stage1.png);
+}
+
+.potato2{
+  background-image: url(../textures/potato/potatoes_stage2.png);
+}
+
+.potato3{
+  background-image: url(../textures/potato/potatoes_stage3.png);
+}
+
+.carrots0{
+  background-image: url(../textures/carrots/carrots_stage0.png);
+}
+
+.carrots1{
+  background-image: url(../textures/carrots/carrots_stage1.png);
+}
+.carrots2{
+  background-image: url(../textures/carrots/carrots_stage2.png);
+}
+.carrots3{
+  background-image: url(../textures/carrots/carrots_stage3.png);
+}
+
+
+.beetroots0{
+  background-image: url(../textures/beetroots/beetroots_stage0.png);
+}
+.beetroots1{
+  background-image: url(../textures/beetroots/beetroots_stage1.png);
+}
+.beetroots2{
+  background-image: url(../textures/beetroots/beetroots_stage2.png);
+}
+.beetroots3{
+  background-image: url(../textures/beetroots/beetroots_stage3.png);
+}
+
+.sweetBerry0{
+  background-image: url(../textures/sweet_berry_bush/sweet_berry_bush_stage0.png);
+}
+.sweetBerry1{
+  background-image: url(../textures/sweet_berry_bush/sweet_berry_bush_stage1.png);
+}
+.sweetBerry2{
+  background-image: url(../textures/sweet_berry_bush/sweet_berry_bush_stage2.png);
+}
+.sweetBerry3{
+  background-image: url(../textures/sweet_berry_bush/sweet_berry_bush_stage3.png);
+}
